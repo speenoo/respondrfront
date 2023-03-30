@@ -1,0 +1,62 @@
+.payment_methods_cont {
+    margin: 50px auto;
+    min-height: 574px;
+}
+
+.add_payment_cont {
+    border-top: 1px solid #B7B9C0;
+    margin-top: 16px;
+}
+
+.add_payment_cont_inputs_block {
+    margin-top: 16px;
+}
+
+.add_payment_cont_input_block {
+    margin-bottom: 20px;
+}
+
+.add_payment_cont_input_block label {
+    margin-bottom: 4px;
+    color: #10142E !important;
+}
+
+.add_payment_cont_input_block input {
+    padding: 14px;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.add_payment_methods_cont {
+    background: #FFFFFF;
+    border: 2px solid #E7E7EA;
+    border-radius: 4px;
+    max-width: 814px;
+    width: 100%;
+    padding: 16px 24px;
+}
+
+.submit_card_btn {
+    background: #205ECA;
+    height: 52px;
+    margin-bottom: 74px;
+}
+
+.payment_methods_cont_block2{
+    max-width: 814px;
+    width: 100%;
+    padding: 20px 24px 35px;
+    background: #D7EFF9;
+    border: 2px solid #D7EFF9;
+    border-radius: 4px;
+    min-height: 406px;
+    height: 100%;
+}
+.payment_methods_cont_block2 button{
+    width: 344px;
+    height: 64px;
+    background: #5171FF;
+    border-radius: 5px;
+}

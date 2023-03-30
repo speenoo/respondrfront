@@ -1,0 +1,32 @@
+.blog_container {
+    width: 100%;
+    margin: 175px auto 111px;
+}
+
+.blog_buttons_cont li {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blog_buttons_cont {
+    max-width: 1468px;
+    width: 100%;
+}
+
+.blog_buttons_cont li {
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #EB5C0A;
+    border-radius: 3px;
+    margin-right: 21px;
+}
+
+.blog_buttons_cont li:hover {
+    background: #EB5C0A;
+}
+
+.blogButtons_btn_active {
+    background: #EB5C0A;
+}

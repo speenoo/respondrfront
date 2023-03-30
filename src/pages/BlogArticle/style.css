@@ -1,0 +1,36 @@
+.BlogArticle_container {
+    margin: 108px auto 10px;
+    max-width: 1460px;
+    width: 100%;
+}
+
+.subcibe_block {
+    width: 100%;
+    margin-top: 213px;
+    background: #F8F8F8;
+    height: 410px;
+}
+
+.subcibe_block_inner {
+    max-width: 1462px;
+    width: 100%;
+    margin: auto;
+}
+.subcibe_email_block{
+    max-width: 616px;
+    width: 100%;
+    padding: 180px 2px;
+}
+.subcibe_email_block input{
+    max-width: 556px;
+    width: 100%;
+    padding: 13px 20px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.subcibe_email_block img{
+   margin-left: 6px;
+}
+.popular_news_title{
+    margin-top: 90px;
+}

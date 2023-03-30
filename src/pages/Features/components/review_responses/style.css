@@ -1,0 +1,119 @@
+.review_responses_cont {
+    margin-top: 64px;
+    padding: 120px 0px;
+    height: 650px;
+}
+
+.review_responses_cont_block1 {
+    max-width: 711px;
+    width: 100%;
+}
+
+.review_responses_cont_block1 div {
+    margin-top: 29px;
+}
+
+.review_responses_cont_block2 {
+    max-width: 634px;
+    width: 100%;
+    /*margin-left: 20px;*/
+    position: relative;
+}
+
+.review_responses_general_pic {
+    max-width: 634px;
+    width: 100%;
+    z-index: -1;
+}
+
+.review_responses_pic1 {
+    position: absolute;
+    top: 2%;
+    max-width: 554px;
+}
+
+.review_responses_pic2 {
+    position: absolute;
+    top: 2%;
+    max-width: 554px;
+}
+
+.review_responses_pic3 {
+    position: absolute;
+    top: 2%;
+    max-width: 554px;
+}
+.review_responses_pic4{
+    position: absolute;
+    top: 16%;
+    left: 13%;
+    max-width: 554px;
+}
+
+@media (max-width: 1200px) {
+    .review_responses_cont {
+        margin-top: 64px;
+        padding: 60px 0px;
+        height: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .review_responses_cont_block1 {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .review_responses_cont {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .review_responses_pic4{
+        max-width: 354px;
+    }
+
+    .review_responses_pic3 {
+        width: 100%;
+        left: 0%;
+    }
+
+    .review_responses_pic2 {
+        width: 100%;
+        left: 0%;
+    }
+
+    .review_responses_pic1 {
+        width: 100%;
+        left: 0%;
+    }
+    .review_responses_cont_block1 div {
+        margin-top: 15px;
+    }
+    .best_responses_text_pic_block img{
+        max-width: 600px;
+        width: 100%;
+    }
+}
+@media(max-width: 540px){
+    .review_responses_pic4{
+        left: 8%;
+    }
+
+}
+@media(max-width: 400px){
+    .review_responses_pic4{
+        left: 15%;
+        max-width: 254px;
+    }
+
+}
+
+@media(max-width: 330px){
+    .review_responses_pic4{
+        left: 10%;
+        max-width: 230px;
+    }
+
+}

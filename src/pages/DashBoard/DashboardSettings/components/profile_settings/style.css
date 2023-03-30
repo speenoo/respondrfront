@@ -1,0 +1,98 @@
+.profile_settings_cont {
+    margin-top: 50px;
+    max-width: 821px;
+    width: 100%;
+    border: 2px solid #E7E7EA;
+    border-radius: 4px;
+    padding: 16px 24px;
+}
+
+.upload_img_block {
+    margin-top: 39px;
+    position: relative;
+}
+
+.uploaded_img {
+    border-radius: 51.5px;
+    width: 103px;
+    height: 105px;
+    margin-right: 13px;
+}
+
+.delete_uploaded_img {
+    width: 98px;
+    height: 28px;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    color: #ABABAB;
+    margin-left: 10px;
+}
+
+#img {
+    z-index: -99;
+    /*display: none;*/
+}
+
+.profile_settings_cont_content {
+    margin-top: 16px;
+    border-top: 1px solid #B7B9C0;
+    padding-top: 32px;
+    max-width: 766px;
+    width: 100%;
+}
+
+.profile_settings_inputs_block {
+    margin-top: 26px;
+    width: 100%;
+}
+.profile_settings_input_block{
+    max-width: 371px;
+    width: 100%;
+}
+.profile_settings_input_block label {
+    margin-bottom: 4px;
+}
+
+.profile_settings_input_block input, .profile_settings_input_block1 input {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #ABABAB;
+}
+
+.profile_settings_cont_content2 {
+    margin-top: 94px;
+    margin-bottom: 43px;
+}
+.profile_settings_cont_btns{
+    margin-bottom: 74PX;
+}
+.profile_settings_cancel_btn, .profile_settings_save_btn{
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    width: 147px;
+    height: 52px;
+}
+.profile_settings_cancel_btn{
+   margin-right: 10px;
+}
+.profile_settings_save_btn{
+    background: #205ECA;
+}
+.upload_pic_btn{
+   width: 147px;
+    height: 28px;
+    background: #205ECA;
+    border-radius: 4px;
+    z-index: 99;
+}
+.image-item img{
+    border-radius: 51.5px;
+    width: 103px;
+    height: 105px;
+    margin-right: 13px;
+}
+.image-item{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}

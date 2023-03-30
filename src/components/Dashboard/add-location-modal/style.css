@@ -1,0 +1,54 @@
+.add_location_modal{
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px 45px;
+}
+.choose_location_cont_item{
+    margin-top: 41px;
+    padding: 23px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px #4DC7F4;
+    border-radius: 16px;
+}
+.add_location_btn{
+    width: 141px;
+    height: 35px;
+    background: #5171FF;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.add_location_modal_block2{
+    margin: 35px 0px;
+}
+.add_location_modal_block2 p{
+    margin-top: 15px;
+}
+.location_input_block{
+    margin-bottom: 25px;
+}
+.location_input_block_item input{
+    max-width: 370px;
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+.or{
+    margin: 15px auto;
+}
+@media (max-width: 768px) {
+    .location_input_block {
+       margin: auto;
+    }
+    .location_input_block_item{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .location_input_block_item label{
+     text-align: left !important;
+    }
+}

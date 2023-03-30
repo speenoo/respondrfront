@@ -1,0 +1,19 @@
+.google_rating_chart_cont{
+    z-index: -1 !important;
+}
+.google_rating_chart_cont .recharts-wrapper{
+    max-width: 864px !important;
+    width: 100% !important;
+}
+
+.google_rating_chart_cont .recharts-surface{
+    max-width: 864px !important;
+    width: 100% !important;
+    background: white;
+}
+.google_rating_chart_cont .recharts-legend-wrapper{
+    max-width: 864px !important;
+    width: 100% !important;
+    left: 0px !important;
+}
+

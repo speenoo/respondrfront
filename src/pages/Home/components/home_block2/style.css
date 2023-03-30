@@ -1,0 +1,181 @@
+.home_block_2_cont {
+    margin-top: 110px;
+    width: 100%;
+}
+
+.home_block_2_cont_item1 {
+    max-width: 565px;
+    width: 100%;
+    height: 365px;
+    border: 1px solid #4DC7F4;
+    border-top: 32px solid #4DC7F4;
+    margin-right: 30px;
+}
+
+.home_block_2_cont_item1:hover {
+    border: 1px solid #EB5C0A;
+    border-top: 32px solid #EB5C0A;
+    transform: scale(1.03) !important;
+}
+
+.home_block_2_cont_item2 {
+    max-width: 565px;
+    width: 100%;
+    height: 365px;
+    border: 1px solid #FFBF00;
+    border-top: 32px solid #FFBF00;
+    margin-right: 30px;
+}
+
+.home_block_2_cont_item2:hover {
+    transform: scale(1.03) !important;
+}
+
+.home_block_2_cont_item3 {
+    max-width: 565px;
+    width: 100%;
+    height: 365px;
+    border: 1px solid #EB5C0A;
+    border-top: 32px solid #EB5C0A;
+}
+
+.home_block_2_cont_item3:hover {
+    border: 1px solid #4DC7F4;
+    border-top: 32px solid #4DC7F4;
+    transform: scale(1.03) !important;
+}
+
+.home_block_2_cont_item_inner {
+    padding: 31px 90px 48px 72px;
+    position: relative;
+}
+
+.home_block_2_cont_item_title {
+    white-space: nowrap;
+}
+
+.home_block_2_cont_item_desc {
+    margin-top: 49px;
+}
+
+.hours_weekly_pic {
+    position: absolute;
+    right: 2%;
+    top: 45%;
+}
+
+.brand_grow_pic {
+    position: absolute;
+    width: 129px;
+    height: 93px;
+    right: 2%;
+    top: 60%;
+}
+
+.market_pic {
+    position: absolute;
+    left: 7%;
+    bottom: 2%;
+}
+@media(max-width: 1775px){
+    .home_block_2_cont_item1, .home_block_2_cont_item2, .home_block_2_cont_item3 {
+        height: 405px;
+        max-width: 505px;
+    }
+    .home_block_2_cont_item_inner {
+        padding: 31px 90px 48px 32px;
+        position: relative;
+    }
+}
+@media(max-width: 1600px){
+    .home_block_2_cont_item1, .home_block_2_cont_item2, .home_block_2_cont_item3 {
+        height: 405px;
+        max-width: 455px;
+    }
+    .home_block_2_cont_item_title {
+        white-space: unset;
+    }
+    .home_block_2_cont_item_inner {
+        padding: 31px 90px 48px 32px;
+        position: relative;
+    }
+}
+@media(max-width: 1440px){
+    .home_block_2_cont_item3, .home_block_2_cont_item2, .home_block_2_cont_item1 {
+        /*max-width: 385px;*/
+        /*width: 100%;*/
+        max-width: 400px;
+        height: 480px;
+    }
+    .home_block_2_cont_item_title {
+        white-space: unset;
+    }
+    .home_block_2_cont_item_inner {
+        padding: 31px 60px 73px 52px;
+    }
+    .hours_weekly_pic {
+        top: 55%;
+    }
+    .brand_grow_pic {
+        top: 70%;
+    }
+}
+@media(max-width: 1280px){
+    .home_block_2_cont_item_inner {
+        padding: 31px 50px 73px 32px;
+    }
+}
+@media(max-width: 1200px){
+    .home_block_2_cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 53px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home_block_2_cont_item1, .home_block_2_cont_item2, .home_block_2_cont_item3 {
+        margin-right: 0px;
+        margin-bottom: 20px;
+        max-width: 565px;
+        height: max-content;
+    }
+    .brand_grow_pic {
+        top: 60%;
+    }
+}
+
+@media(max-width: 540px){
+    .home_block_2_cont {
+       margin-top: 60px;
+    }
+}
+@media(max-width: 360px){
+    .home_block_2_cont {
+        margin-top: 30px;
+    }
+    .hours_weekly_pic {
+       top: 65%;
+        right: 0%;
+        max-width: 100px;
+    }
+    .home_block_2_cont_item_desc {
+        margin-top: 15px;
+    }
+    .home_block_2_cont_item_inner {
+        padding: 11px 25px 11px 15px;
+    }
+    .home_block_2_cont_item1, .home_block_2_cont_item2, .home_block_2_cont_item3 {
+        /*height: 300px;*/
+        height: max-content;
+    }
+    .brand_grow_pic {
+        top: 60%;
+        max-width: 50px;
+    }
+    .market_pic {
+       display: none;
+    }
+}

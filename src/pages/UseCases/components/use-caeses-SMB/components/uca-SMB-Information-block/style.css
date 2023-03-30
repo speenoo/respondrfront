@@ -1,0 +1,85 @@
+.UCA_animation1 {
+    position: absolute;
+    bottom: 12%;
+    right: 27%;
+    z-index: 99;
+}
+
+.UCA_animation1:hover {
+    transition: transform .2s;
+    cursor: pointer;
+    width: 40px;
+    height: 50px;
+
+}
+
+.UCA_animation2 {
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+    z-index: 99;
+}
+
+.UCA_animation3 {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: 99;
+}
+
+.UCA_animation4 {
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+    z-index: 99;
+}
+
+@media (max-width: 1620px) {
+    .UCA_animation1 {
+        position: absolute;
+        bottom: 12%;
+        right: 47%;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 1200px) {
+    .UCA_animation1 {
+        position: absolute;
+       top: 32%;
+        left: 22%;
+        z-index: 99;
+    }
+}
+@media(max-width: 768px){
+    .UCA_animation2 {
+        bottom: 12%;
+    }
+
+    .UCA_animation3 {
+        bottom: 12%;
+    }
+
+    .UCA_animation4 {
+        bottom: 12%;
+    }
+}
+@media(max-width: 540px){
+    .UCA_animation2 {
+        bottom: 15%;
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .UCA_animation3 {
+        bottom: 15%;
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .UCA_animation4 {
+        bottom: 15%;
+        max-width: 250px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+.analytics_data_chart2_cont {
+    max-width: 246px;
+    width: 100%;
+    background: #F8F9FE !important;
+    padding: 7px 5px;
+    position: relative;
+    z-index: unset !important;
+}
+
+.analytics_data_chart2_cont .notes {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    z-index: 1;
+}
+
+.analytics_data_chart2_cont .notes2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+}
+
+.analytics_data_chart2_cont .recharts-wrapper {
+    width: 246px !important;
+    background: #F8F9FE !important;
+
+}
+
+.analytics_data_chart2_cont .recharts-surface {
+    max-width: 800px !important;
+    width: 100%;
+}
+
+.analytics_data_chart2_cont .recharts-sector {
+    /*fill: #E8F5E9 !important;*/
+}
+

@@ -1,0 +1,12 @@
+.navbar_payment_cont{
+    width: 100%;
+    border-bottom: 1px solid #D9DAED;
+}
+.navbar_payment_content{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: max-content;
+    max-width: 600px;
+}

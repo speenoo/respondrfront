@@ -1,0 +1,30 @@
+.arrow_animation_orange_block{
+    position: relative;
+}
+.arrow_animation_orange_pic{
+    position: absolute;
+    left: 50%;
+}
+@media (max-width: 1200px) {
+    .arrow_animation_orange_pic{
+        position: absolute;
+        left: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .arrow_animation_orange_pic{
+       width: 80px;
+        left: 83%;
+    }
+}
+@media(max-width: 500px){
+    .arrow_animation_orange_pic {
+        width: 60px;
+        left: 80%;
+    }
+    .arrow_animation_orange_block {
+        position: relative;
+        top:0%;
+    }
+}
+

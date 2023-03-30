@@ -1,0 +1,47 @@
+.useCases_buttons_cont {
+    margin: 132px auto 62px;
+}
+
+.useCases_buttons_btn {
+    width: 160px;
+    height: 38px;
+    padding: 10px 10px;
+    background: #F8F9FC;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.useCases_buttons_btn:hover{
+    color: white;
+    transform: scale(1.05);
+    background: #20b9f1;
+    margin: 0px 10px;
+    font-weight: 700;
+}
+
+
+.useCases_buttons_btn_active {
+    width: 160px;
+    height: 38px;
+    padding: 10px 10px;
+    background: #EB5C0A;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.useCases_buttons_btn_active:hover{
+    color: white;
+    transform: scale(1.02);
+    background: #20b9f1;
+    margin: 0px 10px;
+    font-weight: 700;
+}
+.useCases_buttons_cont li {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+@media(max-width: 768px){
+    .useCases_buttons_cont {
+        margin: 132px auto 35px;
+    }
+
+}

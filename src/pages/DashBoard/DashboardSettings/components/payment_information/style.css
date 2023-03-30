@@ -1,0 +1,41 @@
+.payment_information_cont{
+    margin: 50px auto 200px;
+    width: 100%;
+}
+#trades {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px 0px;
+}
+
+#trades td, #trades th {
+    border-bottom:  1px solid #D7EFF9;
+    padding: 14.5px 20px;
+}
+
+/*#trades tr:nth-child(even){background-color: #f2f2f2;}*/
+
+#trades tr:hover {
+    background-color: #4DC7F4;
+}
+
+#trades tr:hover td {
+    color: white;
+    font-weight: 700;
+}
+
+#trades th {
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+    text-align: left;
+    background-color: #D7EFF9;
+    color: #000000;
+}
+
+#trades td {
+    color: #818181;
+    font-weight: 600;
+}

@@ -1,0 +1,30 @@
+.arrow_for_block4{
+    position: relative;
+}
+.arrow_animation_for_block4{
+    position: absolute;
+    right: 38%;
+}
+.arrow_for_block_customers{
+    margin-top: 80px;
+}
+.arrow_animation_for_customers{
+   margin: auto;
+}
+@media(max-width: 1310px){
+    .arrow_animation_for_block4 {
+       display: none;
+    }
+}
+@media(max-width: 1200px){
+    .arrow_for_block_customers{
+        margin-top: 20px;
+    }
+}
+@media(max-width: 900px){
+    .arrow_animation_for_customers {
+       max-width: 70px;
+        width: 100%;
+        margin: -30px auto -40px;
+    }
+}

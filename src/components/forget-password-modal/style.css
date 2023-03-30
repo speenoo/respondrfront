@@ -1,0 +1,22 @@
+.modal_back {
+    max-width: 921px;
+    width: 100%;
+    background: #EBEFF3;
+    border: 1px solid #EBEFF3;
+    border-radius: 10px;
+}
+
+.forget_pass_modal {
+    margin: 54px 70px;
+    padding: 74px 82px;
+    background: #FFFFFF;
+    border: 1px solid #D2D5D8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.forget_pass_modal_title2{
+    margin-top: 25px;
+}
+.back_sign_in_btn{
+    margin-top: 55px;
+}

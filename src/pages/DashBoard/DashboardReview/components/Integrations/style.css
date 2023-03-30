@@ -1,0 +1,108 @@
+.integrations_cont {
+    margin-top: 57px;
+    width: 100%;
+}
+
+.integrations_cont_item {
+    max-width: 468px;
+    width: 100%;
+    margin-right: 37px;
+}
+
+.integrations_cont_item:last-child {
+    margin-right: 0px;
+}
+
+.integrations_cont_item_header {
+    margin-bottom: 17px;
+}
+
+.integrations_cont_item_header img {
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.integrations_cont_item_header span {
+    margin-left: 22px;
+}
+
+.integrations_cont_item_body {
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    box-shadow: 4px 4px 4px #EBEBEB;
+    border-radius: 6px;
+}
+
+.integrations_cont_item_map_area {
+    max-width: 468px;
+    width: 100%;
+}
+.integrations_cont_item_map_area img {
+    width: 100%;
+}
+
+.integrations_cont_item_body_content {
+    padding: 28px 15px;
+}
+.integrations_cont_item_body_content_block1{
+    padding-bottom: 12px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.place_name{
+    line-height: 0px;
+    margin-bottom: 14px;
+}
+.rating_stars{
+    margin-left: 11px;
+}
+.rating_stars img{
+    margin-left: 4px;
+}
+.reviews{
+    margin-left: 9px;
+}
+.reviews span{
+    margin-right: 4px;
+    color: #294A9F;
+    font-weight: 500;
+}
+.place_logo{
+  margin-left: 10px;
+}
+.place_logo img{
+    max-width: 118px;
+
+}
+.integrations_cont_item_body_content_block2{
+    margin-top: 23px;
+}
+.integrations_cont_item_body_content_block2_item{
+margin-bottom: 18px;
+}
+.integrations_cont_item_body_content_block2_item span{
+    width:120px;
+    margin-right: 25px;
+}
+@media(max-width: 1770px){
+    .integrations_cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 17px;
+    }
+    .integrations_cont_item {
+        margin-top: 40px;
+    }
+}
+@media(max-width: 1220px){
+    .integrations_cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .integrations_cont_item {
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,241 @@
+.UCE_information_block_cont {
+    width: 100%;
+    background: #F8F9FC;
+    margin-bottom: 245px;
+    position: relative;
+}
+
+.UCE_info_animation1 {
+    position: absolute;
+    top: 43%;
+    left: 13%;
+    z-index: 99;
+    height: 49px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.UCE_info_animation2 {
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    z-index: 99;
+    max-width: 230px;
+    width: 100%;
+}
+
+.UCE_information_block_cont_inner {
+    padding: 108px 0px;
+    max-width: 1460px;
+    margin: auto;
+}
+
+.UCE_information_block_item {
+    max-width: 450px;
+    width: 100%;
+    height: 229px;
+}
+
+.UCE_information_block_item:hover {
+    border: 2px solid #EB5C0A;
+    transform: scale(1.1);
+}
+
+.UCE_information_block_item_inner {
+    padding: 30px 23px;
+}
+
+.UCE_information_block_item_content {
+    margin-top: 12px;
+    color: #686767;
+}
+
+.UCE_info_animation3 {
+    position: absolute;
+    top: 38%;
+    right: 15%;
+    z-index: 99;
+    height: 38px;
+}
+
+.UCE_info_animation4 {
+    position: absolute;
+    top: 24%;
+    right: 1%;
+    z-index: 99;
+    max-width: 310px;
+    width: 100%;
+}
+
+@media (max-width: 1858px ) {
+    .UCE_info_animation2 {
+        max-width: 150px;
+    }
+
+    .UCE_info_animation4 {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 1700px ) {
+    .UCE_info_animation2 {
+        max-width: 90px;
+        top: 35%;
+        left: 2%;
+    }
+
+    .UCE_info_animation4 {
+        top: 33%;
+        max-width: 150px;
+    }
+
+    .UCE_info_animation1 {
+        position: absolute;
+        top: 37%;
+        left: 8%;
+        max-width: 150px;
+    }
+
+    .UCE_info_animation3 {
+        position: absolute;
+        top: 38%;
+        right: 10%;
+        z-index: 99;
+        height: 38px;
+    }
+}
+
+@media (max-width: 1200px ) {
+    .UCE_info_animation2 {
+        max-width: 90px;
+        top: 25%;
+        left: 2%;
+    }
+
+    .UCE_info_animation4 {
+        top: 55%;
+        max-width: 150px;
+    }
+
+    .UCE_info_animation1 {
+        position: absolute;
+        top: 27%;
+        left: 8%;
+        max-width: 100px;
+        height: unset;
+    }
+
+    .UCE_info_animation3 {
+        position: absolute;
+        top: 58%;
+        right: 12%;
+        z-index: 99;
+        height: 38px;
+    }
+
+    .UCE_information_block_cont {
+        margin-bottom: 145px;
+    }
+}
+
+@media (max-width: 768px) {
+    .UCE_information_block_cont {
+        margin-bottom: 45px;
+    }
+    .UCE_information_block_cont_inner {
+        padding: 58px 0px;
+    }
+    .UCE_info_animation2 {
+        top: 14%;
+        left: 2%;
+    }
+
+    .UCE_info_animation4 {
+        top: 75%;
+        max-width: 150px;
+    }
+
+    .UCE_info_animation1 {
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        max-width: 100px;
+        height: unset;
+    }
+
+    .UCE_info_animation3 {
+        position: absolute;
+        top: 78%;
+        right: 13%;
+        z-index: 99;
+        height: unset;
+    }
+}
+@media(max-width: 570px){
+    .UCE_info_animation1 {
+        top: 13%;
+        left: 15%;
+    }
+    .UCE_info_animation2 {
+        top: 12%;
+        left: 2%;
+        max-width: 80px;
+    }
+}
+@media (max-width: 360px) {
+    .UCE_information_block_cont {
+        margin-bottom: 45px;
+    }
+
+    .UCE_info_animation2 {
+        top: 13%;
+        left: 2%;
+        max-width: 50px;
+    }
+
+    .UCE_info_animation4 {
+        top: 78%;
+        max-width: 100px;
+    }
+
+    .UCE_info_animation1 {
+        top: 13%;
+        left: 15%;
+        max-width: 100px;
+        height: unset;
+    }
+
+    .UCE_info_animation3 {
+        top: 80%;
+        right: 13%;
+        height: unset;
+    }
+}
+@media(max-width: 350px){
+    .UCE_info_animation2 {
+        top: 15%;
+    }
+
+    .UCE_info_animation4 {
+        top: 78%;
+    }
+
+    .UCE_info_animation1 {
+        top: 15%;
+        left: 14%;
+    }
+
+    .UCE_info_animation3 {
+        top: 80%;
+        right: 13%;
+    }
+    .UCE_information_block_item {
+        height: 200px;
+    }
+    .UCE_information_block_item_inner {
+        padding: 20px 23px;
+    }
+    .UCE_information_block_item_inner p{
+        line-height: 30px;
+    }
+}

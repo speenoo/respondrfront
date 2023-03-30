@@ -1,0 +1,31 @@
+.dashboard_navbar_cont{
+    max-width: 1000px;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: max-content;
+}
+.dashboard_navbar_cont li {
+    white-space: nowrap;
+    text-align: center;
+    display: block;
+    height: 64px;
+    min-width: 149px;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.dashboard_navbar_cont li:hover {
+    border-bottom: 2px solid #5171FF;
+}
+
+
+li :hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.navbar_btn_active{
+    border-bottom: 2px solid #5171FF;
+    font-weight: 700;
+}

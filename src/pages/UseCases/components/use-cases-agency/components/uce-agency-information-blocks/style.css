@@ -1,0 +1,22 @@
+.UCE_agency_animation1{
+    position: absolute;
+    top: 78%;
+    left: 23%;
+    z-index: 99;
+    height: 87px;
+}
+@media(max-width: 768px){
+    .UCE_agency_animation1{
+        position: absolute;
+        top: 28%;
+    }
+}
+@media(max-width: 390px){
+    .UCE_agency_animation1{
+        position: absolute;
+        max-width: 150px;
+        width: 100%;
+        top: 30%;
+        height: unset;
+    }
+}

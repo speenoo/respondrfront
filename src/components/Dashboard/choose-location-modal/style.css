@@ -1,0 +1,11 @@
+.choose_location_modal{
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px 45px;
+    height: 700px;
+    overflow-y: auto;
+}
+.choose_location_cont_item_img{
+    width: 92px;
+    height: 92px;
+}

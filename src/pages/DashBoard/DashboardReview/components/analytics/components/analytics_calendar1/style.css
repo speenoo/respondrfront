@@ -1,0 +1,37 @@
+.calendar_cont {
+    width: 246px;
+    padding: 15px 20px;
+    background: #FCFBFB;
+    border: 1px solid #F8F8F8;
+    border-radius: 6px;
+}
+
+.calendar_icon {
+    margin-right: 25px;
+}
+
+.react-datetime-picker__wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border: none !important;
+}
+
+.react-datetime-picker__clear-button {
+    display: none !important;
+}
+
+.react-datetime-picker__button {
+    content: url("../../../../../../../assets/images/Dashboard/calendar_icon.png") !important;
+    position: absolute !important;
+    left: -20% !important;
+    border: 0;
+    background: #838383;
+    padding: 4px 6px;
+}
+
+.react-datetime-picker {
+    margin-left: 30px !important;
+    display: inline-flex;
+    position: relative;
+}

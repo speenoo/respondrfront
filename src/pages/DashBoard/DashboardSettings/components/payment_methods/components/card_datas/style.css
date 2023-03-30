@@ -1,0 +1,17 @@
+.card_with_dates_cont{
+    width: 814px;
+    background: #FFFFFF;
+    border: 2px solid #D7EFF9;
+    border-radius: 4px;
+    padding: 23px 23px 53px 103px;
+    height: 100%;
+}
+.cards_info_block{
+    margin-top: 179px;
+}
+.card_type_block{
+    margin-top: 0px;
+    padding: 10px;
+    width: max-content;
+    border: 1px dashed #20b9f1;
+}

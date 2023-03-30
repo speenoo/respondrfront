@@ -1,0 +1,43 @@
+.analytics_data_chart1_cont{
+    padding: 7px 5px !important;
+    background: #F8F9FE !important;
+    margin-right:10px;
+}
+.analytics_data_chart1_cont .notes{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.analytics_data_chart1_cont .recharts-wrapper{
+    max-width: 246px !important;
+    width: 100% !important;
+    padding: 7px 5px;
+}
+
+.analytics_data_chart1_cont .recharts-surface{
+    background: #F8F9FE !important;
+}
+.analytics_data_chart1_cont .recharts-default-legend{
+    display: none;
+}
+.analytics_data_chart1_cont .recharts-legend-wrapper{
+    max-width: 864px !important;
+    width: 100% !important;
+    left: 0px !important;
+}
+.analytics_data_chart1_cont .recharts_line{
+    height: 5px !important;
+}
+.analytics_data_chart1_cont .recharts_cartesian-axis-ticks{
+   color: gray !important;
+    text-transform: capitalize !important;
+}
+.analytics_data_chart1_cont .recharts_cartesian-axis-line{
+    color: gray !important;
+    display: none !important;
+}
+.analytics_data_chart1_cont .recharts_cartesian-axis-ticks{
+    display: none !important;
+}
+
+

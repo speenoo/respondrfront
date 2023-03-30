@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6a5e6dd5-0dc0-4e7a-afaa-0db8e8c4efce" name="ID 5234 - prospecting tool" url="http://5234.freelancedeveloper.site/homePage.html">
+        <fileTransfer host="5234.freelancedeveloper.site" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,136 @@
+.reviews_management_block_reviews {
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+.reviews_management_block_reviews h2, .reviews_management_block_analytics h2 {
+    margin-bottom: 10px;
+}
+
+.reviews_management_block2 {
+    max-width: 1013px;
+    width: 100%;
+    margin-left: 76px;
+    box-shadow: 0px 2px 2px 4px rgba(0.15, 0.15, 0.15, 0.15);
+    border-top: 1px solid rgba(232, 226, 226, 0.96);
+}
+
+.reviews_management_block2 .reviews_management_pic {
+    max-width: 1013px;
+    width: 100%;
+}
+.features_reviews_btn {
+    max-width: 350px;
+    width: 100%;
+    background: rgba(235, 92, 10, 0.75);
+    border-radius: 3px;
+}
+
+.features_analytics_btn{
+    max-width: 350px;
+    width: 100%;
+    margin-left: 27px;
+    background: rgba(77, 199, 244, 0.75);
+    border-radius: 3px;
+}
+
+@media (max-width: 1300px) {
+    .reviews_management_block2 {
+        max-width: 913px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 170px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .reviews_management_block2 {
+        margin-top: 40px;
+        margin-left: 6px;
+    }
+
+    .reviews_management_block2 .reviews_management_pic {
+        max-width: 913px;
+        width: 100%;
+    }
+    .reviews_management_block2{
+        margin-top: 160px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .reviews_management_block2 {
+        max-width: 813px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .reviews_management_block1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .reviews_management_cont{
+        max-width: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        margin: 170px auto 30px;
+    }
+    .reviews_management_block_reviews {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .reviews_management_block2 {
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .features_reviews_btn button, .features_analytics_btn button {
+        width: 150px;
+    }
+    .reviews_management_btn_block{
+        margin-top: 0px;
+    }
+}
+@media(max-width: 768px){
+    .reviews_management_cont{
+        text-align: center;
+        margin: 120px auto 40px;
+    }
+    .reviews_management_block_reviews {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .reviews_management_block2 {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+}
+@media(max-width: 768px){
+    .reviews_management_btn_block{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media(max-width: 360px){
+    .reviews_management_btn_block{
+        display: flex;
+        flex-direction: column;
+    }
+    .reviews_management_btn_block div{
+       margin: 10px auto 0px;
+    }
+    .reviews_management_block_reviews {
+        margin-top: 0px;
+        margin-bottom:0px;
+    }
+
+
+}
+

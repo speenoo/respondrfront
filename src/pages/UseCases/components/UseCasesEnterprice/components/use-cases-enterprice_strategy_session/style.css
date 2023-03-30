@@ -1,0 +1,69 @@
+.strategy_session_cont{
+
+}
+.strategy_session_cont_block1{
+    max-width: 710px;
+    width: 100%;
+}
+.strategy_session_cont_block1 div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.strategy_session_cont_block1 button{
+    max-width: 350px ;
+    width: 100%;
+    padding: 15px 50px;
+    margin-top: 15px;
+}
+.strategy_session_cont_block1 button:hover{
+    background: rgba(238, 92, 11, 0.94);
+    font-weight: 700;
+    color: white;
+    transform: scale(1.02);
+}
+.strategy_session_cont_block2{
+    max-width: 1013px;
+    width: 100%;
+    margin-left: 76px;
+}
+
+.strategy_session_pic {
+    width: 100%;
+}
+@media(max-width: 1200px){
+    .strategy_session_cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 900px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .strategy_session_cont_block1 {
+        max-width:unset;
+        width: 100%;
+    }
+    .strategy_session_cont_block2 {
+        max-width: unset;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+@media(max-width: 900px){
+    .strategy_session_cont{
+       text-align: center;
+    }
+.strategy_session_cont_block1 h2{
+   color:#EB5C0A;
+    font-weight: 600;
+}
+}
+@media(max-width: 768px){
+    .strategy_session_cont_block1 button {
+        padding: 10px 30px;
+        margin-top: 10px;
+    }
+}

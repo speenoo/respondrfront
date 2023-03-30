@@ -1,0 +1,115 @@
+.dashboard_review_block1_cont {
+    max-width: 865px;
+    width: 100%;
+}
+
+.dashboard_review_block1 {
+    max-width: 267px;
+    width: 100%;
+    height: 64px;
+    border-left: 10px solid #FFBF00;
+    border-radius: 10px;
+    background: white;
+    font-weight: 700;
+}
+.dashboard_review_block2 {
+    max-width: 267px;
+    width: 100%;
+    height: 64px;
+    border-left: 10px solid red;
+    border-radius: 10px;
+    background: white;
+    margin-left: 30px;
+    font-weight: 700;
+    color: #FE1A19;
+}
+
+.dashboard_review_block3 {
+    max-width: 267px;
+    width: 100%;
+    height: 64px;
+    border-left: 10px solid #0F8FF2;
+    border-radius: 10px;
+    background: white;
+    margin-left: 30px;
+    color: #139CF7;
+    font-weight: 700;
+}
+
+.dashboard_review_block1_inner {
+    padding: 15px;
+}
+
+.dashboard_review_block1_1 img {
+    margin-right: 10px;
+}
+
+.dashboard_review_block1_cont_block2 {
+    max-width: 865px;
+    width: 100%;
+    height: 261px;
+    background: white;
+    padding: 0px 53px;
+}
+
+.dashboard_review_block1_cont_block2_percent {
+    margin-left: 123px;
+}
+
+.dashboard_review_block1_cont_block2_percent1 button {
+    background: #FFC916;
+    border-radius: 10px;
+    width: 65px;
+    height: 23px;
+    margin-right: 34px;
+}
+
+.dashboard_review_block1_cont_block2_percent1 {
+    margin-bottom: 18px;
+}
+
+.dashboard_review_block1_cont_block2_percent2 button {
+    background: #A4CD3C;
+    border-radius: 10px;
+    width: 65px;
+    height: 23px;
+    margin-right: 34px;
+}
+
+.dashboard_review_block1_cont_block2_percent2 {
+    margin-bottom: 18px;
+}
+
+.dashboard_review_block1_cont_block2_percent3 button {
+    background: #FF4942;
+    border-radius: 10px;
+    width: 65px;
+    height: 23px;
+    margin-right: 34px;
+}
+
+@media (max-width: 1200px) {
+    .dashboard_review_block1_cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dashboard_review_block2_cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 30px auto 0px !important;
+    }
+
+    .dashboard_review_block2_cont_block2 {
+        margin-top: 30px !important;
+    }
+    .dashboard_review_block1 {
+        width: 267px;
+    }
+}

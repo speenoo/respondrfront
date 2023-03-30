@@ -1,0 +1,61 @@
+.sign_up_cont_input_blocks {
+    margin: 47px auto 37px;
+}
+
+.sign_up_cont_input_block, .sign_up_cont_input_block2 {
+    width: 316px;
+    margin-bottom: 35px;
+}
+
+.sign_up_cont_input_blocks:last-child {
+    margin-bottom: 9px;
+}
+
+.sign_up_cont_input_block label, .sign_up_cont_input_block2 label {
+    margin-bottom: 11px;
+}
+
+.sign_up_cont_input_block input, .sign_up_cont_input_block2 input ,.sign_up_cont_input_block select, .sign_up_cont_input_block2 select {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    width: 100%;
+    padding: 25px 16px;
+}
+
+.sign_up_cont_input_block2 {
+    margin-left: 20px;
+}
+
+.sign_up_cont_input_block input::placeholder {
+    color: #A1A1A1;
+}
+
+.try_free {
+    margin-top: 13px;
+}
+
+.try_free p {
+    margin-left: 5px;
+}
+@media(max-width: 768px){
+ .sign_up_cont_input_blocks div{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin-left: 0px;
+     margin-right: 0px;
+ }
+    .try_free{
+        display: flex;
+        flex-direction: row !important;
+    }
+    .sign_up_cont_input_block input, .sign_up_cont_input_block2 input, .sign_up_cont_input_block select, .sign_up_cont_input_block2 select {
+        padding: 20px 16px;
+    }
+    .sign_up_cont_input_blocks {
+        margin: 27px auto 27px;
+    }
+    .login_container_login_btn {
+        margin-top: 17px;
+    }
+}

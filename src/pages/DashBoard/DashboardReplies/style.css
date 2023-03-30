@@ -1,0 +1,14 @@
+.dashboard_replies_cont{
+    margin: 20px auto 40px;
+    background: white !important;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(68, 71, 145, 0.15);
+}
+.view_btn{
+    width: 117px;
+    height: 29px;
+    background: #1841F9;
+    border-radius: 5px;
+    margin-left: 10px;
+}

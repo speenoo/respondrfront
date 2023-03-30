@@ -1,0 +1,36 @@
+.rating_navbar{
+    border-bottom: 1px solid #D9DAED;
+}
+.navbar_cont {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    width: 100%;
+    /*position: fixed;*/
+    /*overflow: auto;*/
+    height: max-content;
+
+}
+.navbar_cont li {
+    display: block;
+    height: 64px;
+    padding: 12px 9px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar_cont li:hover {
+   border-bottom: 2px solid #5171FF;
+}
+
+
+li :hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.navbar_btn_active{
+    border-bottom: 2px solid #5171FF;
+    font-weight: 700;
+    cursor: pointer;
+}

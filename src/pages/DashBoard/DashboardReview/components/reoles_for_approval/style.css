@@ -1,0 +1,55 @@
+.reples_approval_cont {
+    margin-top: 25px;
+}
+
+.reples_approval_cont_block {
+    border: 1px solid #D7EFF9;
+    border-radius: 6px;
+    width: 100%;
+    padding: 25px 15px;
+    margin-bottom: 60px;
+}
+
+.reples_approval_cont_block1 {
+    width: 92%;
+}
+
+.reples_approval_cont_block1_title_block p {
+    color: #177EE6;
+    margin: 0px 20px;
+}
+
+.reples_approval_cont_block1_stars_block img {
+    margin-left: 3px;
+}
+
+.reples_approval_cont_block1_stars_block p {
+    margin-left: 14px;
+}
+
+.reples_approval_cont_block1_authorQuestion {
+    margin: 22px 0px;
+}
+
+.reples_approval_cont_block2 {
+    padding: 10px 23px 25px;
+    margin-left: 62px;
+    background: #D7EFF9;
+    border-radius: 6px;
+}
+
+.reples_approval_cont_block2 img {
+    margin-left: 10px;
+}
+
+.reples_approval_cont_block2 textarea {
+    margin-top: 12px;
+    width: 92%;
+    background: #D7EFF9;
+    border: none;
+   min-height: 50px !important;
+}
+.reples_approval_cont_block2 p {
+    margin-top: 12px;
+    width: 92%;
+}

@@ -1,0 +1,260 @@
+.header_login_container {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    /*max-width: 1920px;*/
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.header_login_container_mobile {
+    display: none;
+}
+
+.header_logout_container {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.header_logout_mobile_container {
+    display: none;
+}
+
+.header_container_inner {
+    padding: 15px 0px;
+}
+
+.header_login_content {
+    max-width: 581px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+/*.header_logout_content {*/
+/*    max-width: 380px;*/
+/*    width: 100%;*/
+/*}*/
+
+.features_btn:hover, .useCases_btn:hover, .pricing_btn:hover,.reviews_btn:hover,.contact_us_btn:hover, .blog_btn:hover{
+    color: #EB5C0A;
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.header_login_container .features_btn, .useCases_btn, .pricing_btn, .reviews_btn, .contact_us_btn, .blog_btn{
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header_logout_content {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header_login_content div {
+    margin-left: 10px;
+}
+
+.header_login_content div:first-child {
+    margin-left: 0px;
+}
+
+.log_reg_block {
+    margin-left: 10px;
+}
+
+.login_btn {
+    cursor: pointer;
+    white-space: nowrap;
+    width: 136px;
+    height: 35px;
+    border: 1px solid #4399B9;
+    border-radius: 5px;
+    color: #4499BA;
+}
+.login_btn:hover{
+    background-color: #4DC7F4;
+    color:white;
+    transform: scale(1.15);
+}
+
+.logout_btn {
+    cursor: pointer;
+    width: 136px;
+    height: 35px;
+    background-color: #4DC7F4;
+    color: white;
+    white-space: nowrap;
+}
+.logout_btn:hover{
+    background-color: white;
+    color: #4499BA;
+    border: 1px solid #4399B9;
+    transform: scale(1.15);
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.15);
+}
+
+.signUp_btn {
+    width: 136px;
+    height: 35px;
+    background-color: #4DC7F4;
+    color: white;
+    margin-left: 21px;
+    white-space: nowrap;
+}
+.signUp_btn:hover{
+    background-color: white;
+    color: #4499BA;
+    border: 1px solid #4399B9;
+    transform: scale(1.15);
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.15);
+}
+.login_header_dropDown {
+    position: relative;
+    cursor: pointer;
+}
+.header_login_dropDown_content{
+    background: white;
+    position: absolute;
+    top: 50px;
+    right: 12%;
+    width: 180px;
+    padding: 10px 0px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+}
+.header_login_dropDown_content a{
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.header_login_dropDown_content a:hover{
+   font-weight: 700;
+    background: #4DC7F4;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .header_login_container {
+        display: none;
+    }
+
+    .header_login_container_mobile {
+        position: fixed;
+        display: block;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        top: 0;
+        background-color: white;
+        z-index: 999;
+    }
+    .header_dropdown_logout_btn{
+        padding: 10px 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .header_logout_container{
+        display: none;
+    }
+    .header_logout_mobile_container{
+        position: fixed;
+        display: block;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        top: 0;
+        background-color: white;
+        z-index: 999;
+        cursor: pointer;
+    }
+    .header_dropdown_logout_btn:hover{
+        background:  #61dafb;
+    }
+
+    .menu_burger {
+        width: 25px;
+        height: 25px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .header_mobile_container_inner {
+        padding: 16px 10px;
+        width: 100%;
+    }
+    .features_btn_mobile, .pricing_btn_mobile, .useCases_btn_mobile, .reviews_btn_mobile,.blog_btn_mobile, .contact_us_btn_mobile, .login_btn_mobile{
+        padding: 10px 10px;
+        text-decoration: none;
+    }
+    .features_btn_mobile:hover,.pricing_btn_mobile:hover, .useCases_btn_mobile:hover, .contact_us_btn_mobile:hover,
+    .blog_btn_mobile:hover, .reviews_btn_mobile:hover, .login_btn_mobile:hover{
+        background-color: #61dafb;
+    }
+
+    .header_dropDown{
+        position: relative;
+    }
+
+    .header_dropDown_content{
+        background: white;
+        position: absolute;
+        top: 50px;
+        right: 45%;
+        width: 180px;
+        padding: 10px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+        z-index: 999;
+    }
+    .header_dropdown_content_login{
+        background: white;
+        position: absolute;
+        top: 50px;
+        right: 2%;
+        width: 180px;
+        padding: 10px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+        z-index: 999;
+    }
+    .header_dropdown_content_item {
+        text-decoration: none;
+        padding:10px;
+    }
+    .header_dropdown_content_item:hover {
+        background: #20b9f1;
+        color: white;
+    }
+    .header_dropdown_content_item_active{
+        font-weight: 700;
+        padding:10px;
+        text-decoration: none;
+    }
+    .header_dropdown_content_item_active:hover{
+      color: white;
+        background: #20b9f1;
+    }
+
+    .Register_btn {
+        width: 87px;
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .menu_burger {
+        width: 25px;
+        height: 25px;
+        margin: 0px 10px;
+
+    }
+
+    .Register_btn {
+        width: 87px;
+        margin-left: 10px;
+    }
+}

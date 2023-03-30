@@ -1,0 +1,121 @@
+.dashboard_cont {
+    margin: 147px auto;
+}
+
+.dashboard_cont_buttons {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.location_button {
+    margin-right: 42px;
+    max-width: 365px;
+    width: 100%;
+    height: 134px;
+    background: #5171FF;
+    box-shadow: 0px 0px 8px #4DC7F4;
+    border-radius: 16px;
+    padding: 24px;
+    position: relative;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.add_location_button {
+    background: white;
+    box-shadow: 0px 0px 8px #5171FF;
+    border-radius: 16px;
+    max-width: 365px;
+    width: 100%;
+    height: 134px;
+}
+
+.add_location_button span {
+    margin-left: 10px;
+}
+
+.location_img {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.line {
+    height: 1px;
+    width: 200px;
+    background: #FFFFFF;
+}
+
+.add_location_cont {
+    background: #FFFFFF;
+    /* Main Colors/Gray 2 */
+    border: 2px solid #E7E7EA;
+    border-radius: 4px;
+    padding: 33px 11px;
+    margin-right: 30px;
+}
+
+.add_location_cont_content {
+    margin-top: 41px;
+}
+
+.add_location_cont_inputs_block {
+    margin-bottom: 23px;
+    max-width: 766px;
+    width: 100%;
+}
+
+.add_location_cont_input_block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.add_location_cont_input_block:first-child {
+    margin-right: 26px;
+}
+
+.add_location_cont_input_block input {
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.add_location_save_btn {
+    width: 141px;
+    height: 35px;
+    background: #5171FF;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.add_location_save_btn:hover {
+    background: #355bfa;
+    transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+    .dashboard_cont_buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media(max-width: 768px){
+    .dashboard_cont_buttons {
+        display: flex;
+      flex-direction: column;
+    }
+    .location_button {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .dashboard_cont {
+        margin: 127px auto;
+    }
+}

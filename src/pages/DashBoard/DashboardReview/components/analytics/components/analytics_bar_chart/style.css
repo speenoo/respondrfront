@@ -1,0 +1,14 @@
+.analytics_bar_chart_cont {
+    max-width: 655px;
+    width: 100%;
+    background: #FCFBFB;
+    border: 1px solid #EAE9E9;
+    border-radius: 6px;
+    position: relative;
+}
+
+.analytics_bar_chart_cont .notes {
+    top: 15px;
+    left: 42px;
+    position: absolute;
+}
