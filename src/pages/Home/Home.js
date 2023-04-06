@@ -39,7 +39,6 @@ export default function Home() {
                 <div className="arrow_for_block_customers d-flex justify-content-center"  data-aos="zoom-in-down"  data-aos-duration="4000" >
                     <img src={arrow_blue_animation} alt="" className="arrow_animation_for_customers"/>
                 </div>
-                <Customers/>
                 <WorkWith/>
                 <InformationBlock/>
             </div>
